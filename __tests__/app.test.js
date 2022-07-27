@@ -14,11 +14,11 @@ describe('backend-express-template routes', () => {
     expect(res.body[0]).toEqual({
       id: expect.any(String),
       name: expect.any(String),
-      type: expect.any(String),
-      url: expect.any(String),
-      year: expect.any(Number),
-      lives: expect.any(Number),
-      isSidekick: expect.any(Boolean),
+      // type: expect.any(String),
+      // url: expect.any(String),
+      // year: expect.any(Number),
+      // lives: expect.any(Number),
+      // isSidekick: expect.any(Boolean),
     });
   });
 
